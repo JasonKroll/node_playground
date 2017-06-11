@@ -63,14 +63,20 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 0);
+/******/ 	return __webpack_require__(__webpack_require__.s = 1);
 /******/ })
 /************************************************************************/
 /******/ ([
 /* 0 */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"file?name=index.html!./index.html\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+module.exports = __webpack_require__.p + "index.html";
+
+/***/ }),
+/* 1 */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(0);
 
 var hello = document.getElementById("hello");
 hello.innerHTML = "Hello World!";

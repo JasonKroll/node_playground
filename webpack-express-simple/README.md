@@ -4,3 +4,4 @@ Simple Webpack config based on this post [The simplest Webpack and Express setup
 
 ###### Notes
 - Amended "resolve extensions" to suit new Webpack config requirements
+- Amended require("file?name=index.html!./index.html"); to require("file-loader?name=index.html!./index.html");
